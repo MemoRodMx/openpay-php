@@ -51,6 +51,18 @@ class OpenpayApiError extends Exception
         return $this->fraud_rules;
     }
 
+	/**
+		Added for Cakephp Compatibility
+	**/
+    public function getAttributes(){
+
+      return [
+        'file' => 'private'
+        , 'line' => 1
+        , 'message' => $this->getDescription()
+        , 'code' => $this->getHttpCode()
+      ];
+    }
 }
 
 // Authentication related Errors
