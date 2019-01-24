@@ -1,5 +1,5 @@
 {
-    "name": "openpay/sdk/MemoRodMX",
+    "name": "MemoRodMX/openpay_sdk_c3",
     "description": "This is a client implementing the payment services for Openpay at openpay.mx with complements for cakephp",
     "type": "library",
     "version": "1.2.0",
