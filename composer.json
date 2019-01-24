@@ -1,6 +1,6 @@
 {
-    "name": "openpay/sdk",
-    "description": "This is a client implementing the payment services for Openpay at openpay.mx",
+    "name": "openpay/sdk/MemoRodMX",
+    "description": "This is a client implementing the payment services for Openpay at openpay.mx with complements for cakephp",
     "type": "library",
     "version": "1.2.0",
     "minimum-stability": "stable",
@@ -26,7 +26,7 @@
         "phpunit/phpunit": "4.8.*"
     },
     "support": {
-        "issues": "https://github.com/open-pay/openpay-php/issues"
+        "issues": "https://github.com/MemoRodMx/openpay-php/pulls"
     },
     "autoload": {
         "psr-0": { "Openpay": "" }
